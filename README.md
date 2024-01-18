@@ -22,18 +22,18 @@ This project is at its inception, and we're building it from the ground up. The 
 1. **Fork the Repository:** Start by forking the project repository to your GitHub account.
 
 2. **Clone the Repository:** Clone the forked repository to your local machine.
-'git clone https://github.com/your-username/java-text-adventure.git'
+`git clone https://github.com/your-username/Textadventure.git`
 
 3. **Create a Branch:** Make a new branch for your contributions.
-'git checkout -b feature/your-feature-name'
+`git checkout -b feature/your-feature-name`
 
 4. **Contribute:** Add your code, ideas, or improvements to the project.
 
 5. **Commit Changes:** Commit your changes with descriptive commit messages.
-'git commit -m "Add feature: your feature description"'
+`git commit -m "Add feature: your feature description"`
 
 6. **Push Changes:** Push your changes to your forked repository.
-'git push origin feature/your-feature-name'
+`git push origin feature/your-feature-name`
 
 7. **Open a Pull Request:** Create a pull request from your branch to the main project repository. Be sure to provide details about your changes.
 
