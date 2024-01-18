@@ -1,0 +1,1 @@
+Dieser Ordner enthält die kompilierten Klassen und JAR-Dateien nach dem Build-Vorgang.

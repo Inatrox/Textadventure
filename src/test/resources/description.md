@@ -1,0 +1,1 @@
+Enthält Ressourcen wie Konfigurationsdateien (config.properties) oder Dateien, die im Code verwendet werden.

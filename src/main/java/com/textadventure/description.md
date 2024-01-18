@@ -1,0 +1,1 @@
+Hier befindet sich der Hauptcode des Projekts. Die Paketstruktur sollte dem Reverse Domain Naming Pattern entsprechen (z.B., com.myjavaproject).

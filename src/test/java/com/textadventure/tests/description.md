@@ -1,0 +1,1 @@
+Hier befinden sich die Unit-Tests für den Code im src/main/java-Ordner. Die Struktur ist ähnlich, aber in einem separaten Testpaket (tests).
