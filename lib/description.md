@@ -1,0 +1,1 @@
+Hier werden externe Bibliotheken (JAR-Dateien) für das Projekt abgelegt.
