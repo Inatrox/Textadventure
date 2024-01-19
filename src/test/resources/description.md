@@ -1,1 +1,1 @@
-Enthält Ressourcen wie Konfigurationsdateien (config.properties) oder Dateien, die im Code verwendet werden.
+Contains resources such as configuration files (config.properties) or files used in the code.
