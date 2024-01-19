@@ -1,1 +1,1 @@
-Hier werden externe Bibliotheken (JAR-Dateien) für das Projekt abgelegt.
+External libraries (JAR files) for the project are stored here.

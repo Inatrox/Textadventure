@@ -1,1 +1,1 @@
-Dieser Ordner enthält die kompilierten Klassen und JAR-Dateien nach dem Build-Vorgang.
+This folder contains the compiled classes and JAR files after the build process.

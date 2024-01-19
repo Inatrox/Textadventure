@@ -1,1 +1,1 @@
-Hier befinden sich die Unit-Tests für den Code im src/main/java-Ordner. Die Struktur ist ähnlich, aber in einem separaten Testpaket (tests).
+This is where the unit tests for the code in the src/main/java folder are located. The structure is similar but within a separate test package (tests).
