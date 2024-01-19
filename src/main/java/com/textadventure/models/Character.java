@@ -1,0 +1,1 @@
+// An abstract base class for all characters in the game, including player characters and non-player characters (NPCs).

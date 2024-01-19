@@ -1,1 +1,1 @@
-
+// The main class that launches the application and initializes various components.

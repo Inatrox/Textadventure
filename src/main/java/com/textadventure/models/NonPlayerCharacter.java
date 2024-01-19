@@ -1,0 +1,1 @@
+// Eine Klasse, die von Character erbt und spezifische Funktionen und Eigenschaften für NPCs enthält.
