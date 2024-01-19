@@ -9,7 +9,7 @@ MyJavaProject
 │   │   │               ├── controllers
 │   │   │               │   └── GameController.java
 │   │   │               ├── models
-│   │   │               │   └── GameModel.java
+│   │   │               │   └── Player.java
 │   │   │               ├── views
 │   │   │               │   └── GameView.java
 │   │   │               └── Main.java
