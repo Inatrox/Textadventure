@@ -4,6 +4,9 @@ package src.main.java.com.textadventure.views;
 
 import src.main.java.com.textadventure.models.Player;
 
+import java.util.List;
+import java.util.Scanner;
+
 public class GameView
 {
     public static Player.PlayerClasses characterCreation()
@@ -14,7 +17,7 @@ public class GameView
         System.out.flush();
 
         System.out.println("Which Class do you wanna Play: [F]ighter, [M]age, [P]aladin, [R]ouge");
-        char selection = checkInput(new char[]{'F', 'M', 'P', 'R'});
+        char selection = checkInput(List.of('F', 'M', 'P', 'R'));
 
         switch (selection)
         {
@@ -43,8 +46,18 @@ public class GameView
         return Player.PlayerClasses.FIGHTER;
     }
 
-    public static char checkInput(char[] inputs)
+    public static char checkInput(List inputs)
     {
-        return 'M';
+        while(true){
+            Scanner sc=new Scanner(System.in);
+            String selection = sc.nextLine().toUpperCase();
+            boolean b = selection.length() == 1 && inputs.contains(selection.toUpperCase().charAt(0));
+            if(b){
+                return selection.charAt(0);
+            }
+            else {
+                System.out.println("Invalid input, Please try again");
+            }
+        }
     }
 }
