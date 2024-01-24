@@ -1,5 +1,9 @@
 package src.main.java.com.textadventure.models;// A class that inherits from Character and includes specific functions and properties for the player.
 
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class Player extends Character{
 
     public enum PlayerClasses
@@ -10,32 +14,43 @@ public class Player extends Character{
         ROGUE
     }
 
-    private final int fighterInitialHealth = 10;
-    private final int fighterInitialStrength = 10;
-    private final int fighterInitialIntelligence = 10;
-    private final int fighterInitialEndurance = 10;
-    private final int fighterInitialSpeed = 10;
+    public Player(PlayerClasses playerClasses){
+        if(playerClasses == PlayerClasses.FIGHTER){
+            this.setHealth(3);
+            this.setStrength(2);
+            this.setIntelligence(1);
+            this.setEndurance(2);
+            this.setSpeed(1);
+        }else if(playerClasses == PlayerClasses.MAGE){
+            this.setHealth(1);
+            this.setStrength(1);
+            this.setIntelligence(3);
+            this.setEndurance(1);
+            this.setSpeed(2);
+        }else if(playerClasses == PlayerClasses.PALADIN){
+            this.setHealth(2);
+            this.setStrength(2);
+            this.setIntelligence(1);
+            this.setEndurance(3);
+            this.setSpeed(1);
+        }else {
+            this.setHealth(1);
+            this.setStrength(1);
+            this.setIntelligence(2);
+            this.setEndurance(1);
+            this.setSpeed(3);
+        }
+    }
 
-    private final int mageInitialHealth = 10;
-    private final int mageInitialStrength = 10;
-    private final int mageInitialIntelligence = 10;
-    private final int mageInitialEndurance = 10;
-    private final int mageInitialSpeed = 10;
+    public Map<String, Integer> stats;
 
-    private final int paladinInitialHealth = 10;
-    private final int paladinInitialStrength = 10;
-    private final int paladinInitialIntelligence = 10;
-    private final int paladinInitialEndurance = 10;
-    private final int paladinInitialSpeed = 10;
-
-    private final int rougeInitialHealth = 10;
-    private final int rougeInitialStrength = 10;
-    private final int rougeInitialIntelligence = 10;
-    private final int rougeInitialEndurance = 10;
-    private final int rougeInitialSpeed = 10;
-
-    public Player(PlayerClasses playerClass)
-    {
-
+    public String getStats(){
+        stats = new HashMap<>();
+        stats.put("Health", this.getHealth());
+        stats.put("Strength", this.getStrength());
+        stats.put("Intelligence", this.getIntelligence());
+        stats.put("Endurance", this.getEndurance());
+        stats.put("Speed", this.getSpeed());
+        return stats.toString();
     }
 }
