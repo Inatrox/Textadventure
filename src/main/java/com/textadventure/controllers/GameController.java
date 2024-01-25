@@ -6,6 +6,7 @@ import src.main.java.com.textadventure.views.GameView;
 
 public class GameController {
     private Player.PlayerClasses playerClass;
+    private Player player;
 
     public void startGame()
     {
@@ -14,9 +15,9 @@ public class GameController {
     }
 
 
-    public void createCharacter()
-    {
-        playerClass = GameView.characterCreation();
+    public void createCharacter() {
+        player = new Player(GameView.characterCreation());
+        System.out.println("These are your stats \n " + player.getStats());
     }
 
 
